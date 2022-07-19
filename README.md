@@ -2,7 +2,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/temporal-action-detection-with-global/temporal-action-localization-on-thumos14)](https://paperswithcode.com/sota/temporal-action-localization-on-thumos14?p=temporal-action-detection-with-global)
 <div align="center">
 
-<h1>Temporal Action Detection with Global Segmentation Mask Learning</h1>
+<h1>Proposal-Free Temporal Action Detection with Global Segmentation Mask Learning</h1>
 
 <div>
     <a href='https://sauradip.github.io/' target='_blank'>Sauradip Nag</a><sup>1,2,+</sup>&emsp;
