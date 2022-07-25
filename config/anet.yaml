@@ -1,0 +1,43 @@
+dataset:
+  num_classes: 200
+  training:
+    video_info_path: "./data/activitynet_annotations/video_info_new.csv"
+    video_anno_path: "./data/activitynet_annotations/anet_anno_action.json"
+    num_frame: 16
+    output_path: '/media/phd/SAURADIP5TB/GSM-ABLATION/'
+    
+  testing:
+    video_info_path: "./data/activitynet_annotations/video_info_new.csv"
+    video_anno_path: "./data/activitynet_annotations/anet_anno_action.json"
+    num_frame: 16
+    output_path: '/media/phd/SAURADIP5TB/GSM-ABLATION/'
+
+model:
+  embedding_head: 4
+  feat_dim: 2048
+  temporal_scale: 100
+
+training:
+  batch_size: 200
+  learning_rate: 0.0004
+  weight_decay: 0.001
+  max_epoch: 20
+  checkpoint_path: "/media/phd/SAURADIP5TB/GSM-ABLATION/"
+  random_seed: 1
+  step: 10
+  gamma: 0.2
+  feature_path: "/media/phd/SAURADIP5TB/I3D-ANET/"
+  num_gpu: 1
+
+loss:
+  lambda_1: 0.6
+  lambda_2: 0.4
+  lambda_3: 0.0
+
+testing:
+  cls_thresh: 0.01
+  mask_thresh: [0,0.2,0.4,0.6,0.8]
+  class_thresh: [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
+  top_k_snip: 10
+  top_k: 500
+  nms_thresh: 0.6
