@@ -28,7 +28,7 @@
 </h3>
 <table>
 <tr>
-    <td><img src="assets/ECCV22_fig1_v2.png" width="100%"/></td>
+    <td><img src="assets/tags_jumbo2.gif" width="100%"/></td>
 </tr>
 </table>
 
