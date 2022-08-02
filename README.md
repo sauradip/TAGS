@@ -28,7 +28,7 @@
 </h3>
 <table>
 <tr>
-    <td><img src="assets/video-gif.gif" width="100%"/></td>
+    <td><img src="assets/video-gif2.gif" width="100%"/></td>
 </tr>
 </table>
 
