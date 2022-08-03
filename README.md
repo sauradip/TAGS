@@ -42,6 +42,7 @@
 - First proposal-free framework for Temporal Action Detection (TAD) task.
 - Converted the traditional regression based Boundary Prediction into a classification problem.
 - Predicts Global Masks for action instances and generates start/end points from mask start/end points.
+- A novel Boundary Refinement and Alignment strategy is proposed which ensures inter-branch consistency.
 - Efficient and Faster than all the existing Anchor-based and Anchor-Free approaches.
 
 ## Abstract
