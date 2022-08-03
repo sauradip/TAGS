@@ -108,12 +108,12 @@ python eval.py
 ## Citation
 If you find this project useful for your research, please use the following BibTeX entry.
 ```
-@article{nag2022zero,
-  title={Zero-shot temporal action detection via vision-language prompting},
+@article{nag2022temporal,
+  title={Temporal Action Detection with Global Segmentation Mask Learning},
   author={Nag, Sauradip and Zhu, Xiatian and Song, Yi-Zhe and Xiang, Tao},
-  journal={arXiv e-prints},
-  pages={arXiv--2207},
+  journal={arXiv preprint arXiv:2207.06580},
   year={2022}
+}
 }
 ```
 
