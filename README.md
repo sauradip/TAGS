@@ -106,6 +106,10 @@ python eval.py
 - [ ] Support for THUMOS14 dataset
 - [ ] Enable multi-gpu training
 
+#### Contact
+
+Regarding any issues on the implementation you can contact the first author at [s.nag@surrey.ac.uk](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new)
+
 ## Citation
 If you find this project useful for your research, please use the following BibTeX entry.
 ```
