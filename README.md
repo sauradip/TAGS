@@ -69,7 +69,8 @@ pip3 install -r requirements.txt
 ```
 
 ### Download Features
-Download the video features and update the Video paths/output paths in ``` config/anet.yaml ``` file. For now ActivityNetv1.3 dataset config is available. We are planning to release the code for THUMOS14 dataset soon. 
+Download the video features and update the Video paths/output paths in ``` config/anet.yaml ``` file. For now ActivityNetv1.3 dataset config is available. We are planning to release the code for THUMOS14 dataset soon. We obtain the I3D features from [ACM-Net](https://github.com/ispc-lab/ACM-Net)
+and also process the annotations similar to [TSP](https://github.com/HumamAlwassel/TSP)
 
 | Dataset | Feature Backbone | Pre-Training | Link | 
 |:---:|:---:|:---:|:---:|
