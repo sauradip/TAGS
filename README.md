@@ -45,6 +45,11 @@
 - A novel Boundary Refinement and Alignment strategy is proposed which ensures inter-branch consistency.
 - Efficient and Faster than all the existing Anchor-based and Anchor-Free approaches.
 
+
+### Contact
+
+Regarding any issues on the implementation you can contact the first author at [s.nag@surrey.ac.uk](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new)
+
 ## Abstract
 
 Existing temporal action detection (TAD) methods rely on generating an overwhelmingly large number of proposals per video. This leads to complex model designs due to proposal generation and/or per-proposal action instance evaluation and the resultant high computational cost. In this work, for the first time, we propose a proposal-free Temporal Action detection model with Global Segmentation mask (TAGS). Our core idea is to learn a global segmentation mask of each action instance jointly at the full video length. The TAGS model differs significantly from the conventional proposal-based methods by focusing on global temporal representation learning to directly detect local start and end points of action instances without proposals. Further, by modeling TAD holistically rather than locally at the individual proposal level, TAGS needs a much simpler model architecture with lower computational cost. Extensive experiments show that despite its simpler design, TAGS outperforms existing TAD methods, achieving new state-of-the-art performance on two benchmarks. Importantly, it is ~ 20x faster to train and ~1.6x more efficient for inference. 
@@ -106,9 +111,6 @@ python eval.py
 - [ ] Support for THUMOS14 dataset
 - [ ] Enable multi-gpu training
 
-#### Contact
-
-Regarding any issues on the implementation you can contact the first author at [s.nag@surrey.ac.uk](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new)
 
 ## Citation
 If you find this project useful for your research, please use the following BibTeX entry.
